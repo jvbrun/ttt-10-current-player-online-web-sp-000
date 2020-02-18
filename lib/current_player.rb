@@ -9,7 +9,7 @@ def turn_count(value)
 end 
 
 
-urrent_player(board) = count == 0 || count.even? ? "X" : "O"
+urrent_player = count == 0 || count.even? ? "X" : "O"
 
 #def current_player(board)
 #  count = turn_count(board)
