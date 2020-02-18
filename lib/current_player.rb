@@ -13,6 +13,8 @@ def current_player(board)
   current_player = count == 0 || count.even? ? "X" : "O"
 end
 
+# Note: the code below is the same as the one above.  Cool!
+
 #def current_player(board)
 #  count = turn_count(board)
 #  if count == 0 || count.even?
